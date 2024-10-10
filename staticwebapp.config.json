@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "route": "/*",
+      "headers": {
+        "x-frame-options": "DENY",
+        "permissions-policy": "geolocation=(), microphone=(), camera=()"
+      }
+    }
+  ]
+}
